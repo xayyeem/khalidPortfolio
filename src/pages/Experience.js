@@ -4,8 +4,9 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
+import WorkIcon from '@mui/icons-material/Work';
 
-import WorkIcon from "@material-ui/icons/Work";
+// import WorkIcon from "@material-ui/icons/Work";
 
 function Experience() {
   return (

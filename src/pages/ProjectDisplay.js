@@ -1,9 +1,10 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { ProjectList } from "../helpers/ProjectList";
-import GitHubIcon from "@material-ui/icons/GitHub";
-import Langauge from "@material-ui/icons/Language";
-// import LanguageIcon from '@material-ui/icons/';
+import GithubIcon from '@mui/icons-material/GitHub';
+import Langauge from '@mui/icons-material/Language';
+
+// import Langauge from "@material-ui/icons/Language";
 import "../styles/ProjectDisplay.css";
 
 function ProjectDisplay() {
@@ -18,7 +19,7 @@ function ProjectDisplay() {
       </p>
       <div className="links">
         <a href={project.github}>
-      <GitHubIcon />
+      <GithubIcon />
         </a>
       <a href={project.url}>
       <Langauge/>
