@@ -9,7 +9,7 @@ import Proj7 from '../assets/projects/Proj7.PNG'
 import Proj8 from '../assets/projects/Proj8.PNG'
 import Proj9 from '../assets/projects/Proj9.webp'
 import Proj10 from '../assets/projects/Proj10.PNG'
-
+import Proj11 from '../assets/projects/Proj11.PNG'
 
 
 
@@ -26,6 +26,13 @@ export const ProjectList = [
     skills: "Reactjs,JavaScript,HTML,CSS",
     url:'https://teal-kataifi-d71b65.netlify.app/',
     github:'https://github.com/xayyeem/cryptopulse'
+  },
+  {
+    name: "Speech-To-Text-Convertor",
+    image: Proj11,
+    skills: "Reactjs,JavaScript,HTML,CSS",
+    url:'https://speechtotext-sigma.vercel.app/',
+    github:'https://github.com/xayyeem/speechtotext'
   },
   {
     name: "VirtualX",

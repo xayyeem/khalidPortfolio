@@ -47,7 +47,7 @@ through my personal Portfolio.</p>
             <h2> Front-End</h2>
             <span>
               ReactJS, Redux, HTML, CSS, Scss, NPM,
-               BootStrap, MaterialUI, TailwindCSS, StyledComponents, ShdaCDN
+               BootStrap, MaterialUI, TailwindCSS, StyledComponents, ShadCDN
             </span>
           </li>
           <li className="item">
@@ -61,6 +61,15 @@ through my personal Portfolio.</p>
             <h2>Languages</h2>
             <span>JavaScript, Java, Python, C#, C, C++</span>
           </li>
+          <li className="item">
+            <h2>Tools</h2>
+            <span>Postman, Firebase, Git/Github, VSCode, Sublime Text, IntelliJ IDEA
+</span>
+          </li>
+          {/* <li className="item">
+            <h2>Development Envir</h2>
+            <span>JavaScript, Java, Python, C#, C, C++</span>
+          </li> */}
         </ol>
       </div>
     </div>
