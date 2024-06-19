@@ -10,6 +10,7 @@ import Proj8 from '../assets/projects/Proj8.PNG'
 import Proj9 from '../assets/projects/Proj9.webp'
 import Proj10 from '../assets/projects/Proj10.PNG'
 import Proj11 from '../assets/projects/Proj11.PNG'
+import Proj12 from '../assets/projects/proj12.PNG'
 
 
 
@@ -20,6 +21,13 @@ import Proj11 from '../assets/projects/Proj11.PNG'
 
 
 export const ProjectList = [
+  {
+    name: "Netflix-Clone",
+    image: Proj12,
+    skills: "Reactjs,JavaScript,HTML,CSS",
+    url:'https://netflix-clone-vert-chi-82.vercel.app/',
+    github:'https://github.com/xayyeem/Netflix-Clone'
+  },
   {
     name: "CryptoPulse",
     image: Proj1,
