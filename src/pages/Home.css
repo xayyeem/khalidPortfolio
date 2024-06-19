@@ -38,10 +38,13 @@
     color: #000;
     cursor:pointer;
     }
-    .skills-box:hover > .skills-title: after, 
-    .skills-box:hover > .skills-title: before{
+
+    .skills-box:hover > .skills-title::after,
+.skills-box:hover > .skills-title::before {
+    content: ""; /* Required for ::after and ::before to work */
     width: 30px;
-    }
+}
+
     .skills-box:hover .skills-img{
     transform: translateX(-20px);
     }
@@ -112,7 +115,7 @@
     }
     @media screen and (max-width:990px){
      .skills-container{
-     grid-tempLate-columns: repeat(2, 1fr);
+     grid-template-columns: repeat(2, 1fr);
      padding: 2rem 50px;
      }
     }
